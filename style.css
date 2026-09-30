@@ -10,6 +10,10 @@ body {
     align-items: center;
 }
 
+h1 {
+    font-size: 300%;
+}
+
 h2 {
     text-align: center;
     padding: 10px;
@@ -26,8 +30,13 @@ h2 {
     border-radius: 10px;
     border: none;
     box-shadow: 2px 2px 2px 2px;
+    cursor: pointer;
 }
-
+#requestData:active, #button:active {
+    background-color: blue;
+    color: white;
+    transform: scale(0.98);
+}
 .formBody {
     margin: 10px;
 }
@@ -69,4 +78,5 @@ textarea {
     border: none;
     margin-top: 10px;
     box-shadow: 2px 2px 2px 2px;
+    cursor: pointer;
 }
